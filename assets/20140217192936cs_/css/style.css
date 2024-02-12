@@ -1,0 +1,285 @@
+*
+{
+	margin: 0 0;
+	padding: 0 0;
+	font-family: "Myriad Web", "Myriad Pro (OT1)", "Myriad Pro", Myriad, Arial, Helvetica, sans-serif;
+}
+
+body {
+	background: #afaaab url('https://web.archive.org/web/20140208020019im_/http://nanomagnetics.net/images/bg.jpg') no-repeat top center;
+	background-attachment:fixed;	
+}
+
+p
+{
+	margin-bottom: 1em;
+}
+a
+{
+	color: #000000;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #84767A;
+	text-decoration: underline;
+}
+#page 
+{
+	width: 100%;
+	text-align: center;
+}
+#page_container
+{
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	text-align: left;	
+}
+
+#header_container
+{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;	
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+#header
+{
+	width: 950px;
+	height: 80px;
+	margin: 0 auto;
+	text-align: left;
+	z-index: 1;
+	margin-top: 20px;
+}
+#header img
+{
+	border: 0;
+}
+#header_distributors
+{
+	position: absolute;
+	margin-left: 660px;
+}
+
+#topnav_container {
+	background-color:#777;		
+}
+
+
+#topnav
+{
+	display: table;
+	*position: absolute;
+	top: 100px;
+	*position: relative;
+	*top: 10px;
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#topnav li
+{
+	display: table-cell;
+	height: 27px;
+	float: left;
+	margin-right: 20px;
+	margin-top:6px;
+}
+#topnav li a
+{
+	display: table-cell;
+	height: 27px;
+	color:white;
+}
+#topnav li a:hover
+{
+/*	background: url("/web/20140208020019im_/http://nanomagnetics.net/images/blackyellowhover.gif"); /* show icon as a background when hovered */
+	background-repeat: repeat-x;
+	background-position: bottom; 
+	text-decoration: none;
+	/* IE6 and 7 hacks */
+	*text-decoration: underline;
+	*background: none;
+}
+
+.horizontalnav 
+{
+	display: table;
+
+}
+.horizontalnav li
+{
+	display: table-cell;
+	float: left;
+	margin-right: 12px;
+}
+.horizontalnav li a
+{
+	display: table-cell;
+}
+
+#columns 
+{
+	width: 950px;
+	overflow: auto;
+}
+#nav
+{
+	width: 140px;
+	height: 225px;
+	margin-top: 20px;
+	margin-left: 0px;
+	float: left;
+	border-right: solid #84767A 1px;
+}
+#nav li
+{
+	display: table;
+	width: 140px;
+	margin-bottom: 15px;
+}
+
+#nav li a
+{
+	display: table-cell;
+	width: 140px;
+}
+
+#nav li a:hover
+{
+	background: url("https://web.archive.org/web/20140208020019im_/http://nanomagnetics.net/images/arrow.gif"); /* show icon as a background when hovered */
+	background-repeat: no-repeat;
+	background-position: right;
+	*background: none; /* hack just to hide icon from IE7 and lower */
+	text-decoration: none;
+}
+
+#content 
+{
+	width: 760px;
+	float: left;
+	margin-left: 40px;
+
+}
+#content a
+{
+	text-decoration: underline;
+}
+#content h1, #content h2
+{
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+#content ul
+{
+	margin: 1em;
+}
+#footer
+{
+	width: 950px;
+	border-top: solid black 1px;
+	margin-top: 100px;
+	padding-top: 10px;
+	color: black;
+}
+#footer a
+{
+	color: black;
+}
+
+#history-list {
+	list-style:none;
+}
+
+#history-list li h2{
+	float:left;
+	clear:both;
+	width:100%;
+	display:block;
+	border-bottom:1px solid black;
+}
+
+#history-list li h3{
+	float: left;
+	margin-left: 20%;
+	width: 80%;
+}
+
+#history-list li p{
+	float: left;
+	margin-left: 20%;
+	width: 80%;
+}
+
+
+form input {
+	padding: 10px;
+}
+
+form .button {
+	font-size: 16px !important;
+	background-color: #CCC;
+	color: black;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border: 1px solid #666;
+	cursor: pointer;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;	
+	padding-left: 20px;
+	padding-right:20px;
+}
+
+form .button:hover {
+	background-color: black;
+	color: white;
+}
+
+#history_nav {
+	list-style:none;
+	width:90%;	
+	height: 70px;
+}
+
+#history_nav li {
+	display:block;
+	float:left;
+	margin-right: 15px	
+}
+
+
+.mailform td {
+	vertical-align:top;
+	width:50%;	
+}
+
+.mailform input {	
+}
+/*
+     FILE ARCHIVED ON 02:00:19 Feb 08, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:43:10 Feb 11, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.072
+  exclusion.robots.policy: 0.061
+  cdx.remote: 0.088
+  esindex: 0.009
+  LoadShardBlock: 311.24 (6)
+  PetaboxLoader3.resolve: 275.78 (2)
+  PetaboxLoader3.datanode: 145.438 (7)
+  load_resource: 620.545
+*/

@@ -1,0 +1,198 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<title>Nano Magnetics Ltd.</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/20140217192936cs_/css/style.css" />
+	<style type="text/css">
+		#topnav_developers {
+			color: #000000;
+			border-bottom: 7px solid #4f5050;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<div id="page">
+		<div id="header_container">
+			<div id="header">
+				<a href="philosophy.html" id="logo"><img src="assets/20140217192936im_/images/header.png"
+						alt="Nano Magnetics Ltd" /></a>
+			</div>
+		</div>
+		<div id="topnav_container">
+			<ul id="topnav">
+				<li><a href="nanoport.php.html" id="topnav_nanoport">Nanoport</a></li>
+				<li><a href="products.php.html" id="topnav_products">Products</a></li>
+				<li><a href="resellers.php.html" id="topnav_resellers">Resellers</a></li>
+				<li><a href="developers.php.html" id="topnav_developers">Developers</a></li>
+				<li><a href="corporate.php.html" id="topnav_corporate">Corporate Information</a></li>
+				<li><a href="contact.php.html" id="topnav_contact">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="page_container">
+		<p>&nbsp;</p>
+		<div id="columns">
+			<ul id="nav">
+				<li><a href="developers.php.html#overview" id="About">Program Overview</a></li>
+				<li><a href="developers.php.html#hardware" id="Application">Hardware Development Kit</a></li>
+				<li><a href="developers.php.html#software">Software Development Program</a></li>
+				<li><a href="developers.php.html#application">Application</a></li>
+			</ul>
+
+
+			<div id="content">
+				<h1><a name="overview" id="overview"></a>Nano Magnetics Developer Program</h1>
+				<p>The Nano Developer Program offers resources, support and materials for developing consumer magnet
+					products including the Nanoport&trade;. Developers have access to pre-release products, prototypes
+					and specifications of the latest magnetic mechanisms for developing new innovative products, and
+					research &amp; development.</p>
+				<h3><a name="hardware" id="hardware"></a>Hardware Development Kit
+				</h3>
+				<p>This program is intended for hardware developers who wish to develop Nanoport enabled electronic
+					accessories. </p>
+				<ul>
+					<li>Hardware connectors and components</li>
+					<li>Testing tools</li>
+					<li>Technical information</li>
+					<li>Technical support</li>
+					<li>Product certification</li>
+					<li>Nanoport logos and icons</li>
+				</ul>
+
+				<h3><a name="software" id="software"></a>Software Development Program
+				</h3>
+				<p>For a developer who wants to create applications for Nanoport enabled devices.
+				</p>
+				<ul>
+					<li>High Powered Magnet Development </li>
+					<li>Structure and magnetism</li>
+					<li>Exploring the interaction of magnetism and kinetic energy </li>
+					<li>The study of magnets and motion </li>
+					<li>Advanced applications (space, military, government)</li>
+				</ul>
+				<a name="application" id="application"></a>
+				<h2 style="margin-top:30px;">Apply Online</h2>
+				<p><i>Bolded fields are required.</i></p>
+				<form name="devs" action="" method="post" class="mailform">
+					<table>
+						<tr>
+							<td><b>Name:</b></td>
+							<td><input name="name" type="text" size="50" /></td>
+						</tr>
+						<tr>
+							<td><b>Company:</b></td>
+							<td><input name="bizname2" type="text" size="50" /></td>
+						</tr>
+						<tr>
+							<td><b>E-mail:</b></td>
+							<td><input name="email" type="text" size="50" /></td>
+						</tr>
+						<tr>
+							<td>Website</td>
+							<td><input name="website" type="text" size="50" /></td>
+						</tr>
+						<tr>
+							<td>Project Description</td>
+							<td><textarea name="project" cols="50" rows="3"></textarea></td>
+						</tr>
+						<tr>
+							<td><b>E-mail:</b></td>
+							<td><input name="email" type="text" size="50" /></td>
+						</tr>
+						<tr>
+							<td><b>Phone:</b></td>
+							<td><input name="phone2" type="text" size="50" /></td>
+						</tr>
+						<tr>
+							<td><b>Address:</b></td>
+							<td><input name="address" type="text" size="50" /></td>
+						</tr>
+						<tr>
+							<td><b>City:</b></td>
+							<td><input name="city" type="text" size="50" /></td>
+						</tr>
+						<tr>
+							<td><b>State/Province:</b></td>
+							<td><input name="prov" type="text" size="50" /></td>
+						</tr>
+						<tr>
+							<td><b>Zip/Postal Code:</b></td>
+							<td><input name="postal" type="text" size="50" /></td>
+						</tr>
+						<tr>
+							<td><b>Country:</b></td>
+							<td><input name="country" type="text" size="50" /></td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td><input class="button" type="submit" value="Submit" onclick="return false;" />
+								<input class="button" type="reset" value="Reset" onclick="return false;" />
+							</td>
+						</tr>
+
+					</table>
+				</form>
+
+				<script type="text/javascript">
+
+					function validate() {
+
+						if (document.devs.bizname2.value == "" || document.devs.name.value == "" || document.devs.phone.value == "" || document.devs.email.value == "" || document.devs.address.value == "" || document.devs.city.value == "" || document.devs.prov.value == "" || document.devs.postal.value == "" || document.devs.country.value == "") {
+
+							alert("Please complete all required fields.");
+							return false;
+						}
+
+						// submit form otherwise
+
+						document.devs.submit();
+					}
+
+				</script>
+
+			</div>
+
+		</div>
+
+		<div id="footer">
+
+			<ul class="horizontalnav">
+				<li><a href="corporate.php.html">Corporate Information</a></li>
+				<li><a href="products.php.html">Products</a></li>
+				<li><a href="safety.php.html">Safety</a></li>
+				<li><a href="legal.php.html">Legal</a></li>
+				<!--<li><a href="#">Contact</a></li>-->
+			</ul>
+			<!--<ul class="horizontalnav">
+			<li>Distributors:</li>
+			<li><a href="#">Login</a></li>
+			<li><a href="#">Create an Account</a></li>
+		</ul>-->
+
+			<div class="clear"></div>
+			<p><small>&copy; 2009-2014 Nano Magnetics Ltd. and Nano Magnetics USA Inc. All Rights Reserved.</small></p>
+		</div>
+
+
+
+
+
+	</div>
+	</div>
+
+	<script type="text/javascript">
+		try {
+			var pageTracker = _gat._getTracker("UA-6071431-6");
+			pageTracker._trackPageview();
+		} catch (err) { }</script>
+</body>
+
+</html>
